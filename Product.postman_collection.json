@@ -1,0 +1,536 @@
+{
+	"info": {
+		"_postman_id": "b2de5eef-ed74-4f60-8d9a-5c7bfaeb4c7a",
+		"name": "Product",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "localhost:8282/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productID",
+							"value": "1403",
+							"type": "text"
+						},
+						{
+							"key": "productName",
+							"value": "Mefinal",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/products",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"method": "GET",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productID",
+							"value": "q403",
+							"type": "text"
+						},
+						{
+							"key": "productName",
+							"value": "Mefinal",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/getproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "productID",
+							"value": "q403",
+							"type": "text"
+						},
+						{
+							"key": "productName",
+							"value": "Mefinal",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/getproduct",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"getproduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/getproduct",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerID",
+							"value": "123ji",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "project1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/getproduct",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"getproduct"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/products?productID=1403&productName=Mefinal&supplierID=0000&categoryID=14&quantityPerUnit=143&unitPrice=19.000&unitsInStock=14&unitsOnOrder=3&reorderLevel=5&discontinued=12&description=Obat",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerID",
+							"value": "123ji",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "project1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/products?productID=1403&productName=Mefinal&supplierID=0000&categoryID=14&quantityPerUnit=143&unitPrice=19.000&unitsInStock=14&unitsOnOrder=3&reorderLevel=5&discontinued=12&description=Obat",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"products"
+					],
+					"query": [
+						{
+							"key": "productID",
+							"value": "1403"
+						},
+						{
+							"key": "productName",
+							"value": "Mefinal"
+						},
+						{
+							"key": "supplierID",
+							"value": "0000"
+						},
+						{
+							"key": "categoryID",
+							"value": "14"
+						},
+						{
+							"key": "quantityPerUnit",
+							"value": "143"
+						},
+						{
+							"key": "unitPrice",
+							"value": "19.000"
+						},
+						{
+							"key": "unitsInStock",
+							"value": "14"
+						},
+						{
+							"key": "unitsOnOrder",
+							"value": "3"
+						},
+						{
+							"key": "reorderLevel",
+							"value": "5"
+						},
+						{
+							"key": "discontinued",
+							"value": "12"
+						},
+						{
+							"key": "description",
+							"value": "Obat"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "localhost:8282/products",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "customerID",
+						"value": "140300",
+						"type": "text"
+					},
+					{
+						"key": "companyName",
+						"value": "by Lula",
+						"type": "text"
+					},
+					{
+						"key": "contactName",
+						"value": "Aflah",
+						"type": "text"
+					},
+					{
+						"key": "contactTitle",
+						"value": "CEO",
+						"type": "text"
+					},
+					{
+						"key": "address",
+						"value": "Buah Batu",
+						"type": "text"
+					},
+					{
+						"key": "city",
+						"value": "Bandung",
+						"type": "text"
+					},
+					{
+						"key": "country",
+						"value": "Indonesia",
+						"type": "text"
+					},
+					{
+						"key": "phone",
+						"value": "082212348983",
+						"type": "text"
+					},
+					{
+						"key": "postalCode",
+						"value": "12345",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "customerID",
+							"value": "123ji",
+							"type": "text"
+						},
+						{
+							"key": "companyName",
+							"value": "project1",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "localhost:8282/products",
+					"host": [
+						"localhost"
+					],
+					"port": "8282",
+					"path": [
+						"products"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
