@@ -1,0 +1,66 @@
+{
+	"info": {
+		"_postman_id": "e6aeae78-7a1e-4402-80c4-4320b59eb53b",
+		"name": "Json",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8181/getEmployees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n   \"address\":{\r\n      \"street\":\"Buah Batu\",\r\n      \"city\":\"Bandung\",\r\n      \"state\":\"Indonesia\",\r\n      \"zip\":\"1403\"\r\n   },\r\n   \"first_name\":\"Lula\",\r\n   \"last_name\":\" Aflah\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/getEmployees",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \r\n   \"address\":{\r\n      \"street\":\"Jalan Palem Segitiga\",\r\n      \"city\":\"Bandung\",\r\n      \"state\":\"Indonesia\",\r\n      \"zip\":\"1403\"\r\n   },\r\n   \"first_name\":\"Lula\",\r\n   \"last_name\":\"Minnatulmaula Aflah\"\r\n}",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "http://localhost:8181/getEmployees",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"getEmployees"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
