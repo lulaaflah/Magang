@@ -1,0 +1,56 @@
+{
+	"info": {
+		"_postman_id": "a6bb6d20-d37d-4aff-aa38-fb9e66faca68",
+		"name": "Task 4",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://localhost:8181/inputThumbnail",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n   \"colors\":{\r\n      \"color\":\"black\",\r\n      \"category\":\"hue\",\r\n      \"type\":\"primary\",\r\n      \"code\":{\r\n         \"rgba\":\"255,255,255,1\",\r\n         \"hex\":\"#000\"\r\n      }\r\n   },\r\n   \"thumbnail\":{\r\n      \"url\":\"images/thumbnails/0001.jpg\",\r\n      \"width\":32,\r\n      \"height\":32\r\n   }\r\n}"
+				},
+				"url": {
+					"raw": "http://localhost:8181/inputThumbnail",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"inputThumbnail"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://localhost:8181/inputModif",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n      \"id\": 143,\r\n      \"date\": \"2017-07-21T10:30:34\",\r\n      \"date_gmt\": \"2017-07-21T17:30:34\",\r\n      \"guid\": {\r\n          \"rendered\": \"https://www.sitepoint.com/?p=157538\"\r\n      },\r\n      \"modified\": \"2017-07-23T21:56:35\",\r\n      \"modified_gmt\": \"2017-07-24T04:56:35\",\r\n      \"slug\": \"why-the-iot-threatens-your-wordpress-site-and-how-to-fix-it\",\r\n      \"status\": \"publish\",\r\n      \"type\": \"post\",\r\n      \"link\": \"https://www.sitepoint.com/why-the-iot-threatens-your-wordpress-site-and-how-to-fix-it/\",\r\n      \"title\": {\r\n          \"rendered\": \"Why the IoT Threatens Your WordPress Site (and How to Fix It)\"\r\n      }\r\n}\r\n"
+				},
+				"url": {
+					"raw": "http://localhost:8181/inputModif",
+					"protocol": "http",
+					"host": [
+						"localhost"
+					],
+					"port": "8181",
+					"path": [
+						"inputModif"
+					]
+				}
+			},
+			"response": []
+		}
+	],
+	"protocolProfileBehavior": {}
+}
